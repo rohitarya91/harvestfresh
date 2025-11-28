@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+#header{
+    background-color:#cb6ce6;
+    color: #fff;
+}#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float:right;
+}#menu li{
+    display: inline-block;
+
+}#menu li a{
+    color: #fff;
+    padding: 15px;
+    display: block;
+    
+    
+}#buttonnav:hover{
+    background-color:#9e33bb60;
+}nav{
+    padding: 40px;
+}
+/* nav baar end */
+#banner{
+    background: url(./banner2.avif) no-repeat 0 0;
+    filter:brightness(10px);
+    background-size: cover;
+    height: auto;
+}.banner-title h1 {
+   text-transform: capitalize;
+    font-family: "Playfair Display", serif;
+    color: #ffffff;
+  text-align: center;
+   display: inline-block;
+   padding-left:  20px;
+   /* margin-left: ; */
+
+}.banner-title p.lead{
+    font-family: "Playfair Display", serif;
+    color: #ffffff;
+    padding-top: 5px;
+  
+    display: inline-block;
+    padding: 10px;
+}.banner-title{
+    left: 10%;
+    padding-top: 20rem;
+}.service-box .img-fluid{
+    width: 80px;
+    height: 40px;
+/* }#card{
+    
+    margin: 20px; */
+}#card:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
+}#button:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
+}#button{
+    text-transform: capitalize;
+    border:none;
+    background-color:#cb6ce6;
+}#buttonnav{
+    margin: 2px;
+    border: none;
+    background-color:#cb6ce6;
+}#title{
+    font-family: "Playfair Display", serif; 
+    text-transform: capitalize;
+}#navbar{
+    position: fixed;
+  /* top: 0;  */
+  /* left: 0; 
+  right: 0; */
+  /* width: 100%; Navbar ka width 100% ho ga */
+  background-color:#cb6ce6;
+  /* z-index: 10000;  */
+  padding: 10px 0; 
+
+}
+
+/* gallery css */
+body {
+    background-color: #f4f4f4;
+}
+
+container {
+    margin-top: 5rem;
+}
+
+.gallery-item {
+    margin-bottom: 2rem;
+}
+
+.figcaption {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.gallery-item img {
+    border-radius: 10px;
+}
+
+.heading {
+    color: rebeccapurple;
+    font-family: 'Arial', sans-serif;
+}
+
+.product-description {
+    color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+/* General Footer Styling */
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for all the footer sections */
+footer .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Each section in the footer */
+footer .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+/* Heading Style for Footer Sections */
+footer h3 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Unordered List Styling */
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* List Items for Footer Links */
+footer ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer Links */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Bottom Section */
+footer .footer-bottom {
+    margin-top: 30px;
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+}
+
+/* Copyright Text */
+footer .footer-bottom p {
+    font-size: 14px;
+}
+
+
+
+
+
+
